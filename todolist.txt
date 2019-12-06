@@ -1,0 +1,10 @@
+[SERVER]
+	- Add handlers in config_vars.hpp for the new variables to be loaded
+	- Check whether the categories in request need to be there
+	- Replace finish with a more appropriate procedure in connection_user_management.cpp
+	- Add cases in switch in connection.cpp
+	- In request.cpp change the commands to include a space character
+	- In request.cpp add the option of having a slash in quoted string
+[DATABASE]
+	- Add email check constraints
+	- Restrict the possibility of the username being an email
